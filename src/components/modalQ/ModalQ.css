@@ -1,0 +1,40 @@
+
+body {
+    text-align: center;
+   }
+   
+   .question-container {
+    margin-bottom: 20px;
+   }
+   
+   .question-container h2 {
+    margin-bottom: 10px;
+   }
+   
+   .score-container {
+    margin-bottom: 20px;
+   }
+   
+   .score-container h2 {
+    margin-bottom: 10px;
+   }
+   
+.modal{
+    background-image: url("../../images/binary.avif");
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 15%;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   }
+   
+button:hover {
+    background-color: white;
+    color: black;
+   }

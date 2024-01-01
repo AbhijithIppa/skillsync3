@@ -1,0 +1,11 @@
+.confirm{
+  font-size: 35px;
+  font-family: Roboto;
+  font-style: Light;
+  color:"#797979";
+  position:"fixed";
+}
+.img{
+  width:82px;
+  height: 93px; 
+}

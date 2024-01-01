@@ -1,0 +1,24 @@
+/* components/LoginPage.css */
+.login-page {
+    background-image: url('/src/images/login.jpg'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    background-color: rgba(6, 4, 4, 0.8); /* Semi-transparent white background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .oval-input {
+    border-radius: 20px; /* Adjust the border-radius for oval shape */
+  }
+  
+  /* Add any additional styles as needed */
+  

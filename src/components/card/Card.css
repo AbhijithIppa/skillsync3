@@ -1,0 +1,64 @@
+/* Card Container */
+.card-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Profile Info */
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-details {
+  margin-left: 15px;
+}
+
+/* Status */
+.status {
+  align-self: center;
+}
+/* Fonts */
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.profile-link {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  color: #555; /* Adjust color as needed */
+}
+
+/* Other styles (previously provided) */
+/* ... */
+
+/* Font Awesome icon size and color */
+.fab {
+  font-size: 18px; /* Adjust icon size */
+  margin-right: 5px; /* Spacing between icon and text */
+}

@@ -1,0 +1,60 @@
+/* components/HomePage.css */
+.home-body{
+  background-image: url("../../images/binary.avif");
+  padding-bottom: 20px;
+}
+.home-page {
+  background-image: url('/src/images/Home.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  background-color: rgba(39, 38, 38, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+  padding-left: auto;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  color: #023f81;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.imgclass {
+  text-align: center; /* Add this line */
+  max-width: 800px;
+  max-height: 600px; /* Make sure the image doesn't exceed its container height */
+  object-fit: contain;
+  align-items: center;
+  left: 50%;
+  right: 50%;
+ }
+.carousel-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .carousel-item {
+  text-align: center; /* Add this line */
+  background-color: black;
+ }
